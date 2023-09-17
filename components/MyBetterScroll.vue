@@ -42,3 +42,8 @@ export default {
     },
 };
 </script>
+<style scoped lang="scss">
+.wrapper{
+    overflow: hidden;
+}
+</style>
