@@ -28,6 +28,7 @@ export default {
                 mouseWheel: true,
                 preventDefault: false
             });
+	this.newRfresh()
         },
         //重新获取高度
         newRfresh(){
@@ -41,8 +42,3 @@ export default {
     },
 };
 </script>
-<style lang="scss" scoped>
-.wrapper {
-    height: 100vh;
-}
-</style>
